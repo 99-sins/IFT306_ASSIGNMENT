@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const data = await response.json();
 
-            // Randomly select 6 countries to display
+            // Randomly select 8 countries to display (Simulating dynamic data)
             const shuffled = data.sort(() => 0.5 - Math.random());
             const selected = shuffled.slice(0, 8);
 
